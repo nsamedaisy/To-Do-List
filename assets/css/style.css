@@ -2,16 +2,74 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: Roboto,
-    sans-serif;
+  background-color: aqua;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	margin: 0;
-	overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #797272;
+  color: white;
+  border-radius: 5px;
+  width: 400px;
+  padding: 15px;
+  height: 600px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 15px;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#newtodo {
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#add-btn {
+  padding: 7px 9px;
+  border: none;
+  background-color: blue;
+}
+
+#todo {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+#list {
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  user-select: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: blue;
+}
+
+#edit-btn,
+#delete-btn {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: aliceblue;
 }
